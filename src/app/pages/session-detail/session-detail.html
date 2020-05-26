@@ -51,16 +51,17 @@
       <ion-label color="primary"> Unit- 5 </ion-label>
       <ion-icon slot="end" color="primary" size="small" name="logo-buffer"></ion-icon>
     </ion-item>
-    <ion-item (click)="openMenu(session.download, session.download)" button>
-      <ion-label color="primary">Download Resource</ion-label>
+    <ion-item (click)="close(session.download)" button>
+      <ion-label color="primary">Download Extra Resource</ion-label>
       <ion-icon slot="end" color="primary" size="small" name="cloud-download"></ion-icon>
     </ion-item>
-    <ion-item (click)="openMenu(session.prev, session.prev)" button>
+    <ion-item (click)="openMenu(session.prev, session.prevdown)" button>
       <ion-label color="primary"> Previous Year Question Papers</ion-label>
-      <ion-icon slot="end" color="primary" size="small" name="logo-buffer"></ion-icon>
+      <ion-icon slot="end" color="primary" size="small" name="albums"></ion-icon>
     </ion-item>
     <ion-item (click)="sessionClick('leave feedback')" button>
       <ion-label color="primary">Leave Feedback</ion-label>
+      <ion-icon slot="end" color="primary" size="small" name="information"></ion-icon>
     </ion-item>
   </ion-list>
 </ion-content>

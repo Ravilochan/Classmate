@@ -15,9 +15,10 @@
               "timeEnd": "10:30 am",
               "tracks": ["Development"],
               "drive": "https://drive.google.com/file/d/1jxPiVZsDuz2ddfvH8E6yeASzHgzxE6h8/view?usp=sharing",
-              "download": "https://drive.google.com/u/0/uc?id=1fAaNuQGwfvPzYlVsPAh-IpuyeKvx_5kX&export=download",
+              "download": "https://drive.google.com/u/0/uc?id=1jxPiVZsDuz2ddfvH8E6yeASzHgzxE6h8&export=download",
               "watch": "https://drive.google.com/file/d/1MN7fBAvmicDNA53MUsF4m43NNB_mT8LS/view?usp=sharing",
               "prev": "https://drive.google.com/file/d/0B14lF0mcPupddDhLN2FQYlBpa3M/view?usp=sharing",
+              "prevdown": "https://drive.google.com/u/0/uc?id=0B14lF0mcPupddDhLN2FQYlBpa3M&export=download",
               "id": "1"
             }
           ]
@@ -34,6 +35,8 @@
               "timeEnd": "11:35 am",
               "tracks": ["AI/ML"],
               "drive": "https://drive.google.com/file/d/0B14lF0mcPupdTFp1Z3pQUUpjZHc/view?usp=sharing",
+              "prev": "https://drive.google.com/file/d/13SCQLpRjRDD2E0wNOl5zFvj4zDX4kwmM/view",
+              "prevdown": "https://drive.google.com/u/0/uc?id=13SCQLpRjRDD2E0wNOl5zFvj4zDX4kwmM&export=download",
               "id": "2"
             },
             {
@@ -56,6 +59,8 @@
               "timeEnd": "12:45 am",
               "tracks": ["Electives"],
               "drive": "https://drive.google.com/file/d/1kV5JLvxeJ_m4wrk2e4-IE45HEOFtIhxe/view?usp=sharing",
+              "prev": "https://drive.google.com/file/d/0B14lF0mcPupdZzBwMWZtUkRPa00/view",
+              "prevdown": "https://drive.google.com/u/0/uc?id=0B14lF0mcPupdZzBwMWZtUkRPa00&export=download",
               "id": "4"
             }
           ]
@@ -72,6 +77,8 @@
               "timeEnd": "2:15 pm",
               "tracks": ["Development"],
               "drive": "https://drive.google.com/file/d/0B14lF0mcPupdZGxNbEhwVm5XcGs/view?usp=sharing",
+              "prev": "https://drive.google.com/file/d/0B14lF0mcPupdcHdlTmZUVFkxYjQ/view",
+              "prevdown": "https://drive.google.com/u/0/uc?id=0B14lF0mcPupdcHdlTmZUVFkxYjQ&export=download",
               "id": "5"
             },
             {
@@ -83,6 +90,8 @@
               "timeEnd": "10:30 am",
               "tracks": ["Web Development"],
               "drive": "https://drive.google.com/file/d/1vAA4P8c1w89Bm2Bt_32pg3znB617C9tj/view?usp=sharing",
+              "prev": "https://drive.google.com/file/d/0B14lF0mcPupdQkVXQ210Rk9mZ2s/view",
+              "prevdown": "https://drive.google.com/u/0/uc?id=0B14lF0mcPupdQkVXQ210Rk9mZ2s&export=download",
               "id": "6"
             },
             {
@@ -110,6 +119,8 @@
               "timeEnd": "5:00 pm",
               "tracks": ["Documentation"],
               "drive": "https://drive.google.com/file/d/1k4idIXIRT_HB-BUA7FcXljKgLmoV7eS3/view?usp=sharing",
+              "prev": "https://drive.google.com/file/d/0B14lF0mcPupdalg3akVLcGFUSEk/view",
+              "prevdown": "https://drive.google.com/u/0/uc?id=0B14lF0mcPupdalg3akVLcGFUSEk&export=download",
               "id": "8"
             }
           ]
@@ -126,6 +137,8 @@
               "timeEnd": "10:00 am",
               "tracks": ["Workshop"],
               "drive": "https://drive.google.com/file/d/1l-s4B9JnP2fd-47V9J7Cw2KNDEUs-ETD/view?usp=sharing",
+              "prev": "https://drive.google.com/file/d/0B14lF0mcPupdd183cWtFX2xzbUE/view",
+              "prevdown": "https://drive.google.com/u/0/uc?id=0B14lF0mcPupdd183cWtFX2xzbUE&export=download",
               "id": "9"
             },
             {
@@ -137,6 +150,8 @@
               "timeEnd": "11:30 am",
               "tracks": ["Communication / Networking"],
               "drive": "https://drive.google.com/file/d/16mf6CsGB9h9Uu8ear16eDLi2yN32w2DN/view?usp=sharing",
+              "prev": "https://drive.google.com/file/d/1e7tnY9yllye3_kUrYY-a55gcVl8nVLzS/view",
+              "prevdown": "https://drive.google.com/u/0/uc?id=1e7tnY9yllye3_kUrYY-a55gcVl8nVLzS&export=download",
               "id": "10"
             },
             {
@@ -148,6 +163,8 @@
               "timeEnd": "12:30 pm",
               "tracks": ["Electives"],
               "drive": "https://drive.google.com/file/d/1fAaNuQGwfvPzYlVsPAh-IpuyeKvx_5kX/view?usp=sharing",
+              "prev": "https://drive.google.com/file/d/1687NyaFshmsuuwwP-r9LNh7t5V4l5syo/view",
+              "prevdown": "https://drive.google.com/u/0/uc?id=1687NyaFshmsuuwwP-r9LNh7t5V4l5syo&export=download",
               "id": "11"
             }
           ]
@@ -179,6 +196,8 @@
               "timeEnd": "3:30 pm",
               "tracks": ["Communication / Networking"],
               "drive": "https://drive.google.com/file/d/1BHbEAktI0L54G4YnbV_aCDtVpxU0aJsQ/view?usp=sharing",
+              "prev": "https://drive.google.com/file/d/19RailWHkmQMlovvj22yAJ6V5IAy3ns1o/view",
+              "prevdown": "https://drive.google.com/u/0/uc?id=19RailWHkmQMlovvj22yAJ6V5IAy3ns1o&export=download",
               "id": "14"
             },
             {
@@ -190,6 +209,8 @@
               "timeEnd": "4:15 pm",
               "tracks": ["Services"],
               "drive": "https://drive.google.com/file/d/16UG1wtLzLF2xukZMXZfzGusnzwfsEJVB/view?usp=sharing",
+              "prev": "https://drive.google.com/file/d/17yomOSl4stSC_DBkk05AYEN6VMsb72bP/view",
+              "prevdown": "https://drive.google.com/u/0/uc?id=17yomOSl4stSC_DBkk05AYEN6VMsb72bP&export=download",
               "id": "15"
             }
           ]
