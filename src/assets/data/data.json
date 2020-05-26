@@ -1,0 +1,315 @@
+{
+  "schedule": [
+    {
+      "date": "2047-05-17",
+      "groups": [
+        {
+          "time": "9:30 am",
+          "sessions": [
+            {
+              "name": "Compiler Construction",
+              "location": "IT-2",
+              "description": "A compiler implements a formal transformation from a high-level source program to a low-level target program. Compiler design can define an end to end solution or tackle a defined subset that interfaces with other compilation tools e.g. preprocessors, assemblers, linkers. Design requirements include rigorously defined interfaces both internally between compiler components and externally between supporting toolsets.",
+              "speakerNames": ["P Amba Bhavani"],
+              "timeStart": "9:30 am",
+              "timeEnd": "10:30 am",
+              "tracks": ["Development"],
+              "drive": "https://drive.google.com/file/d/1jxPiVZsDuz2ddfvH8E6yeASzHgzxE6h8/view?usp=sharing",
+              "id": "1"
+            }
+          ]
+        },
+        {
+          "time": "10:30 am",
+          "sessions": [
+            {
+              "name": "Artificial Intelligence ( AI )",
+              "location": "IT-2",
+              "description": "Artificial intelligence Artificial intelligence (AI), the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings.",
+              "speakerNames": ["Ashwini Kumar"],
+              "timeStart": "10:35 am",
+              "timeEnd": "11:35 am",
+              "tracks": ["AI/ML"],
+              "drive": "https://drive.google.com/file/d/0B14lF0mcPupdTFp1Z3pQUUpjZHc/view?usp=sharing",
+              "id": "2"
+            },
+            {
+              "name": "Internet of Thing ( IoT )",
+              "location": "IT-2",
+              "description": "The Internet of things (IoT) is a system of interrelated computing devices, mechanical and digital machines provided with unique identifiers (UIDs) and the ability to transfer data over a network without requiring human-to-human or human-to-computer interaction.",
+              "speakerNames": ["Dr. Ch Samson", "D.B.V. Ravisankar"],
+              "timeStart": "10:45 am",
+              "timeEnd": "11:45 am",
+              "tracks": ["AI/ML"],
+              "drive": "https://drive.google.com/file/d/1lE64XfjWOmiVRmH0Mn0MqcsxEsBZQWRm/view?usp=sharing",
+              "id": "3"
+            },
+            {
+              "name": "Data Mining ",
+              "location": "IT-1",
+              "description": "Data mining is the process of discovering patterns in large data sets involving methods at the intersection of machine learning, statistics, and database systems. Data mining is an interdisciplinary subfield of computer science and statistics with an overall goal to extract information (with intelligent methods) from a data set and transform the information into a comprehensible structure for further use.",
+              "speakerNames": ["G Usha Sri"],
+              "timeStart": "11:45 am",
+              "timeEnd": "12:45 am",
+              "tracks": ["Electives"],
+              "drive": "https://drive.google.com/file/d/1kV5JLvxeJ_m4wrk2e4-IE45HEOFtIhxe/view?usp=sharing",
+              "id": "4"
+            }
+          ]
+        },
+        {
+          "time": "1:00 pm",
+          "sessions": [
+            {
+              "name": "Data Structures & Algorithms",
+              "location": "IT-2",
+              "description": "Introduction to Data Structures and Algorithms Data Structure is a way of collecting and organising data in such a way that we can perform operations on these data in an effective way. Data Structures is about rendering data elements in terms of some relationship, for better organization and storage.",
+              "speakerNames": ["P Amba Bhavani", "G Usha Sri", "P Karthik"],
+              "timeStart": "1:00 pm",
+              "timeEnd": "2:15 pm",
+              "tracks": ["Development"],
+              "drive": "https://drive.google.com/file/d/0B14lF0mcPupdZGxNbEhwVm5XcGs/view?usp=sharing",
+              "id": "5"
+            },
+            {
+              "name": "Web Application Development",
+              "location": "IT-1",
+              "description": "Web application development is the process and practice of developing web applications. There is a consensus that the processes involved are extensions of standard software engineering processes.",
+              "speakerNames": ["G Usha Sri", "P Karthik"],
+              "timeStart": "10:15 am",
+              "timeEnd": "10:30 am",
+              "tracks": ["Web Development"],
+              "drive": "https://drive.google.com/file/d/1vAA4P8c1w89Bm2Bt_32pg3znB617C9tj/view?usp=sharing",
+              "id": "6"
+            },
+            {
+              "name": "Mobile Application Development",
+              "location": "IT-2",
+              "description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
+              "speakerNames": ["Dr. Ch Samson", "P Amba Bhavani"],
+              "timeStart": "2:15 pm",
+              "timeEnd": "3:30 pm",
+              "tracks": ["Design"],
+              "drive": "https://www.cs.cmu.edu/~bam/uicourse/830spring09/BFeiginMobileApplicationDevelopment.pdf",
+              "id": "7"
+            },
+            {
+              "name": "Design & Analysis of Algorithms",
+              "location": "AV Room",
+              "description": "Design and Analysis of Algorithms Tutorial An Algorithm is a sequence of steps to solve a problem. Design and Analysis of Algorithm is very important for designing algorithm to solve different types of problems in the branch of computer science and information technology.",
+              "speakerNames": [
+                "Ashwini Kumar",
+                "G Usha Sri",
+                "P Amba Bhavani",
+                "P Karthik"
+              ],
+              "timeStart": "3:45 pm",
+              "timeEnd": "5:00 pm",
+              "tracks": ["Documentation"],
+              "drive": "https://drive.google.com/file/d/1k4idIXIRT_HB-BUA7FcXljKgLmoV7eS3/view?usp=sharing",
+              "id": "8"
+            }
+          ]
+        },
+        {
+          "time": "9:00 am",
+          "sessions": [
+            {
+              "name": "Embedded Systems",
+              "location": "IT-1",
+              "description": "An embedded system is a computer system—a combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function within a larger mechanical or electrical system. It is embedded as part of a complete device often including electrical or electronic hardware and mechanical parts. Because an embedded system typically controls physical operations of the machine that it is embedded within, it often has real-time computing constraints. Embedded systems control many devices in common use today. Ninety-eight percent of all microprocessors manufactured are used in embedded systems.",
+              "speakerNames": ["Dr. Ch Samson", "D.B.V. Ravisankar"],
+              "timeStart": "9:00 am",
+              "timeEnd": "10:00 am",
+              "tracks": ["Workshop"],
+              "drive": "https://drive.google.com/file/d/1l-s4B9JnP2fd-47V9J7Cw2KNDEUs-ETD/view?usp=sharing",
+              "id": "9"
+            },
+            {
+              "name": "Computer Networks",
+              "location": "Hall 3",
+              "description": "Computer Network. Definition - What does Computer Network mean? A computer network is a group of computer systems and other computing hardware devices that are linked together through communication channels to facilitate communication and resource-sharing among a wide range of users.",
+              "speakerNames": ["Dr. Ch Samson", "D.B.V. Ravisankar"],
+              "timeStart": "10:30 am",
+              "timeEnd": "11:30 am",
+              "tracks": ["Communication / Networking"],
+              "drive": "https://drive.google.com/file/d/16mf6CsGB9h9Uu8ear16eDLi2yN32w2DN/view?usp=sharing",
+              "id": "10"
+            },
+            {
+              "name": "JAVA",
+              "location": "IT-2",
+              "description": "Java is a general-purpose programming language that is class-based, object-oriented, and designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere, meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java applications are typically compiled to bytecode that can run on any Java virtual machine regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but it has fewer low-level facilities than either of them. As of 2019, Java was one of the most popular programming languages in use according to GitHub, particularly for client-server web applications, with a reported 9 million developers.",
+              "speakerNames": ["P Karthik"],
+              "timeStart": "11:30 am",
+              "timeEnd": "12:30 pm",
+              "tracks": ["Electives"],
+              "drive": "https://drive.google.com/file/d/1fAaNuQGwfvPzYlVsPAh-IpuyeKvx_5kX/view?usp=sharing",
+              "id": "11"
+            }
+          ]
+        },
+        {
+          "time": "1:00 pm",
+          "sessions": [
+            {
+              "name": "Object Oriented Programming in C++",
+              "location": "IT-1",
+              "description": "Object-oriented programming (OOP) refers to a type of computer programming (software design) in which programmers define the data type of a data structure, and also the types of operations (functions) that can be applied to the data structure.",
+              "speakerNames": ["D.B.V. Ravisankar"],
+              "timeStart": "1:00 pm",
+              "timeEnd": "2:15 pm",
+              "tracks": ["Documentation"],
+              "drive": "https://drive.google.com/file/d/1JMGKNlfAoSbI6eyLT-Q7EylEMrD9ldoz/view?usp=sharing",
+              "id": "13"
+            },
+            {
+              "name": "Data Communication",
+              "location": "AV Hall",
+              "description": "Data transmission is the transfer of data over a point-to-point or point-to-multipoint communication channel. Examples of such channels are copper wires, optical fibers, wireless communication channels, storage media and computer buses.",
+              "speakerNames": [
+                "D.B.V. Ravisankar",
+                "Dr. Ch Samson",
+                "P Karthik"
+              ],
+              "timeStart": "2:15 pm",
+              "timeEnd": "3:30 pm",
+              "tracks": ["Communication / Networking"],
+              "drive": "https://drive.google.com/file/d/1BHbEAktI0L54G4YnbV_aCDtVpxU0aJsQ/view?usp=sharing",
+              "id": "14"
+            },
+            {
+              "name": "Software Engineering",
+              "location": "IT-1",
+              "description": "Software engineering is the systematic application of engineering approaches to the development of software. Software engineering is a branch of computing science.",
+              "speakerNames": ["Ashwini Kumar"],
+              "timeStart": "3:30 pm",
+              "timeEnd": "4:15 pm",
+              "tracks": ["Services"],
+              "drive": "https://drive.google.com/file/d/16UG1wtLzLF2xukZMXZfzGusnzwfsEJVB/view?usp=sharing",
+              "id": "15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "speakers": [
+    {
+      "name": "Ashwini Kumar",
+      "profilePic": "/assets/img/speakers/ashwinkumar.jpg",
+      "instagram": "",
+      "twitter": "",
+      "about": "Ashwini Kumar HOD of Information Department ( IT Dept. )",
+      "title": "Professor & HOD",
+      "location": "Hyderabad",
+      "email": "hod_it@mvsrec.edu.in",
+      "phone": "",
+      "id": "1"
+    },
+    {
+      "name": "P Amba Bhavani",
+      "profilePic": "/assets/img/speakers/ambabhani.jpg",
+      "instagram": "",
+      "twitter": "",
+      "about": "",
+      "title": "Assistant Professor",
+      "location": "Hyderabad",
+      "email": "",
+      "phone": "",
+      "id": "2"
+    },
+    {
+      "name": "P Karthik",
+      "profilePic": "/assets/img/speakers/karthik.jpg",
+      "instagram": "karthikpisupaati",
+      "twitter": "",
+      "about": "Subjects teaching at Under Graduate Level: Programming in C and C++ , Data Structures , OOP Using JAVA , Web Technologies , Software Engineering , Computer Networks, Compiler Construction , Object Oriented System Development , Information Security",
+      "title": "Assistant Professor",
+      "location": "Hyderabad",
+      "email": "karthik_it@mvsrec.edu.in",
+      "phone": "",
+      "id": "3"
+    },
+    {
+      "name": "Dr. Ch Samson",
+      "profilePic": "/assets/img/speakers/Dr Ch Samson.jpg",
+      "instagram": "",
+      "twitter": "",
+      "about": "Area of interest: Image Processing, Cryptography and Network Security | Subjects taught at U.G Level: Computer Networks, Digital Image Processing Mobile Computing, Data Communication, Operating Systems, Network Protocols, Wireless Networks, Information Security, Advanced Computer Architecture Computer Organization, Wireless Communications, E-commerce, C Programming, Computer Graphics, Unix Shell Programming , Network Programming, Object oriented Analysis and Design. | Subjects taught at P.G Level: Data Structures and Algorithms, Advanced Computer Networks, Wireless Networks and Mobile Computing, Image Processing, Information Security | Number of Research Papers/Journals/Books  published: 25 | Number of Workshops/Conference/FDP/Seminar conducted& Attended:     24  | Awards: Received National Merit Scholarship and Telugu Vignana Parithoshikam in SSC. | Received Best Teacher award for the years 2006, 2007, 2008, 2011 and 2012 at  Sreenidhi Institute of Science & Technology, Hyderabad",
+      "title": "Professor",
+      "location": "Hyderabad",
+      "email": "samson_cse@mvsrec.edu.in",
+      "phone": "",
+      "id": "4"
+    },
+    {
+      "name": "D.B.V. Ravisankar",
+      "profilePic": "/assets/img/speakers/ravishankar.jpg",
+      "instagram": "",
+      "twitter": "",
+      "about": "Qualifications : M.E | TeachingExperience. 15yrs | Area of Specializations : : Digital Systems | Subjects teaching at Under Graduate Level: PRP, DSP. CN, VLSI Design, EBS,S&S",
+      "title": "Associate Professor",
+      "location": "Hyderabad",
+      "email": "ravisankar_it@mvsrec.edu.in",
+      "phone": "",
+      "id": "5"
+    },
+    {
+      "name": "G Usha Sri",
+      "profilePic": "/assets/img/speakers/ushasri.jpg",
+      "instagram": "",
+      "twitter": "",
+      "about": "TeachingExperience. 9 yrs 6 months | Area of Specializations :  Computer Science engineering | Subjects teaching at Under Graduate Level: Programming in C & C++, DS, DAA, JAVA",
+      "title": "Assistant Professor",
+      "location": "Hyderabad",
+      "email": "ushasri_it@mvsrec.edu.in",
+      "phone": "",
+      "id": "6"
+    }
+  ],
+
+  "tracks": [
+    {
+      "name": "Web Development",
+      "icon": "logo-angular"
+    },
+    {
+      "name": "Documentation",
+      "icon": "document"
+    },
+    {
+      "name": "Scripting Languages",
+      "icon": "restaurant"
+    },
+    {
+      "name": "AI/ML",
+      "icon": "logo-ionic"
+    },
+    {
+      "name": "Development",
+      "icon": "hammer"
+    },
+    {
+      "name": "Design",
+      "icon": "color-palette"
+    },
+    {
+      "name": "Services",
+      "icon": "cog"
+    },
+    {
+      "name": "Workshop",
+      "icon": "construct"
+    },
+    {
+      "name": "Communication / Networking",
+      "icon": "call"
+    },
+    {
+      "name": "Electives",
+      "icon": "compass"
+    }
+  ]
+}

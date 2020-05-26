@@ -1,0 +1,47 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-buttons slot="end">
+      <ion-button color='primary' (click)="startApp()" [hidden]="!showSkip">Skip</ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+  <ion-slides #slides (ionSlideWillChange)="onSlideChangeStart($event)" pager="false">
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-1.png" class="slide-image" />
+      <h2 class="slide-title">
+        Welcome to
+        <b>ClassMate</b>
+      </h2>
+      <p>
+        The
+        <b>ClassMate - Student Buddy app</b> is a practical preview of providing students with Lecture Notes & details necessary.
+      </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-2.png" class="slide-image" />
+      <h2 class="slide-title">What is ClassMate?</h2>
+      <p>
+        The <b>Classmate</b> - Student Buddy App is a tool that enables students to access , download & learn from all the Lecture Notes , PDFs, PPTs, Resources of Expert Professors in our College. </p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-3.png" class="slide-image" />
+      <h2 class="slide-title">What is the Appflow?</h2>
+      <p>
+        <b>Its Simple . </b> <br>First Register in the Classmate App , if already registered login to view your Schedule and Lecturers. <br> Click on any Subject , Resource , or any Lecturer to access their resources. 
+      <br><b> HAPPY LEARNING !!</b></p>
+    </ion-slide>
+
+    <ion-slide>
+      <img src="assets/img/ica-slidebox-img-4.png" class="slide-image" />
+      <h2 class="slide-title">Ready ?</h2>
+      <ion-button fill="clear" (click)="startApp()">
+        Get Set Go !
+        <ion-icon slot="end" name="arrow-forward"></ion-icon>
+      </ion-button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
