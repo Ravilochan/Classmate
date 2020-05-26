@@ -27,31 +27,37 @@
   </div>
 
   <ion-list>
-    <ion-item (click)="sessionClick('watch')" button>
+    <ion-item (click)="close(session.watch)" button>
       <ion-label color="primary">Watch</ion-label>
+      <ion-icon slot="end" color="primary" size="small" name="play"></ion-icon>
+    </ion-item>  
+    <ion-item button block (click)="openMenu(session.drive , session.download)">
+      <ion-label color="primary"> Unit- 1 </ion-label>
+      <ion-icon slot="end" color="primary" size="small" name="logo-buffer"></ion-icon>
     </ion-item>
-    <ion-item button (click)="close(session.drive)">
-      <ion-label color="primary"> Show in Drive Unit- 1 </ion-label>
+    <ion-item button block (click)="openMenu(session.drive , session.download)">
+      <ion-label color="primary"> Unit- 2 </ion-label>
+      <ion-icon slot="end" color="primary" size="small" name="logo-buffer"></ion-icon>
     </ion-item>
-    <ion-item button (click)="close(session.drive)">
-      <ion-label color="primary"> Show in Drive Unit- 2 </ion-label>
-    </ion-item><ion-item button (click)="close(session.drive)">
-      <ion-label color="primary"> Show in Drive Unit- 3 </ion-label>
-    </ion-item><ion-item button (click)="close(session.drive)">
-      <ion-label color="primary"> Show in Drive Unit- 4 </ion-label>
-    </ion-item><ion-item button (click)="close(session.drive)">
-      <ion-label color="primary"> Show in Drive Unit- 5 </ion-label>
+    <ion-item button block (click)="openMenu(session.drive , session.download)">
+      <ion-label color="primary"> Unit- 3 </ion-label>
+      <ion-icon slot="end" color="primary" size="small" name="logo-buffer"></ion-icon>
     </ion-item>
-
-
-
-
-    <!-- <ion-item (click)="sessionClick('mark as unwatched')" button>
-      <ion-label color="primary">Mark as Unwatched</ion-label>
-    </ion-item> -->
-    <ion-item (click)="sessionClick('download video')" button>
+    <ion-item button block (click)="openMenu(session.drive , session.download)">
+      <ion-label color="primary"> Unit- 4 </ion-label>
+      <ion-icon slot="end" color="primary" size="small" name="logo-buffer"></ion-icon>
+    </ion-item>
+    <ion-item button block (click)="openMenu(session.drive , session.download)">
+      <ion-label color="primary"> Unit- 5 </ion-label>
+      <ion-icon slot="end" color="primary" size="small" name="logo-buffer"></ion-icon>
+    </ion-item>
+    <ion-item (click)="openMenu(session.download, session.download)" button>
       <ion-label color="primary">Download Resource</ion-label>
       <ion-icon slot="end" color="primary" size="small" name="cloud-download"></ion-icon>
+    </ion-item>
+    <ion-item (click)="openMenu(session.prev, session.prev)" button>
+      <ion-label color="primary"> Previous Year Question Papers</ion-label>
+      <ion-icon slot="end" color="primary" size="small" name="logo-buffer"></ion-icon>
     </ion-item>
     <ion-item (click)="sessionClick('leave feedback')" button>
       <ion-label color="primary">Leave Feedback</ion-label>

@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-
+import { ActionSheetController } from "@ionic/angular";
 import { ConferenceData } from "../../providers/conference-data";
 import { ActivatedRoute } from "@angular/router";
 import { UserData } from "../../providers/user-data";
@@ -17,7 +17,8 @@ export class SessionDetailPage {
   constructor(
     private dataProvider: ConferenceData,
     private userProvider: UserData,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    public actionsheetCtrl: ActionSheetController
   ) {}
 
   ionViewWillEnter() {
@@ -55,7 +56,6 @@ export class SessionDetailPage {
   sessionClick(item: string) {
     console.log("Clicked", item);
   }
-
   toggleFavorite() {
     if (this.userProvider.hasFavorite(this.session.name)) {
       this.userProvider.removeFavorite(this.session.name);
@@ -70,6 +70,37 @@ export class SessionDetailPage {
     console.log("Clicked share session");
   }
   close(url: string) {
-    window.open(url);
+    if (url) {
+      window.open(url);
+    }
+  }
+
+  async openMenu(url: string, down: string) {
+    const actionSheet = await this.actionsheetCtrl.create({
+      header: " Choose ",
+      buttons: [
+        {
+          text: "Open in Google Drive",
+
+          handler: () => {
+            this.close(url);
+          },
+        },
+        {
+          text: "Download to Device",
+          handler: () => {
+            this.close(down);
+          },
+        },
+        {
+          text: "Cancel",
+          role: "destructive",
+          handler: () => {
+            console.log("Cancel clicked");
+          },
+        },
+      ],
+    });
+    await actionSheet.present();
   }
 }
