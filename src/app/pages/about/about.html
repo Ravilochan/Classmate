@@ -24,7 +24,14 @@
     <h3 class="ion-padding-top ion-padding-start">About</h3>
 
     <p class="ion-padding-start ion-padding-end">
-      The Ionic Conference is a one-day conference on {{ conferenceDate | date: 'mediumDate' }} featuring talks from the Ionic team. It is focused on Ionic applications being built with Ionic Framework. This includes migrating apps to the latest version of the framework, Angular concepts, Webpack, Sass, and many other technologies used in Ionic 2. Tickets are completely sold out, and we’re expecting more than 1000 developers – making this the largest Ionic conference ever!
+     A Community platform between Teachers and Students <br>
+     <b>ClassMate</b> brings all the resources required for a student to their fingertips <br>
+     All Students can view , access all class schedules, workshops, lectures , notes and all other resources at any time with <b>ClassMate</b><br>
+     Professors can share their knowledge & update their course material, online classes, resources, PDFs, PPTs, notes etc not only to their students but also all other students who are interested in gaining Knowledge.<br>
+     <br>
+     We are Happy to build this Application and serve all our friends. New Features and Updates are added in the future. Stay Tuned. Update Your App in the Play/App Store respectively.
+     <br>
+     For any Suggestions , queries , and errors , feel free to contact us !!. 
     </p>
 
     <h3 class="ion-padding-top ion-padding-start">Details</h3>
@@ -32,13 +39,13 @@
     <ion-list lines="none">
       <ion-item>
         <ion-label>
-          Location
+          Branch - Course 
         </ion-label>
         <ion-select [(ngModel)]="location" [interfaceOptions]="selectOptions">
-          <ion-select-option value="madison">Madison, WI</ion-select-option>
-          <ion-select-option value="austin">Austin, TX</ion-select-option>
-          <ion-select-option value="chicago">Chicago, IL</ion-select-option>
-          <ion-select-option value="seattle">Seattle, WA</ion-select-option>
+          <ion-select-option value="madison">Information Technology , IT</ion-select-option>
+          <ion-select-option value="austin"> Civil </ion-select-option>
+          <ion-select-option value="chicago"> EEE </ion-select-option>
+          <ion-select-option value="seattle"> Mech</ion-select-option>
         </ion-select>
       </ion-item>
       <ion-item>
@@ -53,23 +60,31 @@
       </ion-item>
     </ion-list>
 
-    <h3 class="ion-padding-top ion-padding-start">Internet</h3>
+    <h3 class="ion-padding-top ion-padding-start">Developers - Team </h3>
 
     <ion-list lines="none">
-      <ion-item>
+      <ion-item button (click)="close('https://www.instagram.com/ravilochan.exe/')">
         <ion-label>
-          Wifi network
+          B Ravilochan
         </ion-label>
         <ion-label class="ion-text-end">
-          ica{{conferenceDate | date: 'y'}}
+          2451-17-737-082
         </ion-label>
       </ion-item>
-      <ion-item>
+      <ion-item button (click)="close('https://www.instagram.com/jayanth_damera/')">
         <ion-label>
-          Password
+          D Jayanth
         </ion-label>
         <ion-label class="ion-text-end">
-          makegoodthings
+          2451-17-737-087
+        </ion-label>
+      </ion-item>
+      <ion-item button (click)="close('https://www.instagram.com/suraj_volam/')">
+        <ion-label>
+          V Suraj ( CR )
+        </ion-label>
+        <ion-label class="ion-text-end">
+          2451-17-737-089
         </ion-label>
       </ion-item>
     </ion-list>
